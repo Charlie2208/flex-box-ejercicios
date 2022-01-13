@@ -1,0 +1,29 @@
+:root{
+    background-color: gray;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    background-color:  #ffff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* .container__1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+} */
+
+.container__button{
+    width: 200px;
+    height: 50px;
+    background-color:  #84f4e4 ;
+    color:  #ffff ;
+    font-size: 20px;
+    border-color: #84f4e4;
+    border-style: none;
+}

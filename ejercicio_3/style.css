@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+}
+.nav{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__li{
+    
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    
+    /* flex-direction: row; */
+    
+}
+
+.item{
+    
+    margin-right: 100px;
+}
+
+.nav__brand{
+    margin-left: 50px;
+}

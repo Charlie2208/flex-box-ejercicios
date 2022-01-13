@@ -1,0 +1,55 @@
+body{
+    font-family: monospace;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.item{
+    display: flex;
+    /* width: 200px; */
+    height: 50px;
+    background-color:  #fc749c;
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    color:#ffff;
+    margin: 5px;
+    
+    
+    
+}
+
+.item-1{
+    flex: 1 1 200px;
+
+}
+
+.item-2{
+    flex: 1 1 200px;
+}
+
+.item-3{
+    flex: 1 1 200px;
+}
+
+.item-4{
+    flex: 1 1 200px; 
+}
+
+.item-5{
+    flex: 1 1 200px; 
+}
+
+.item-6{
+    flex: 1 1 200px; 
+}
